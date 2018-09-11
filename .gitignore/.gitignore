@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="alternate" href="https://de.wbb.io/" hreflang="de" />
+        <link rel="alternate" href="https://jp.wbb.io/" hreflang="ja" />
+        <link rel="alternate" href="https://cn.wbb.io/" hreflang="zh" />
+		<link rel="alternate" href="https://ru.wbb.io/" hreflang="ru" />
+        <meta charset="utf-8">
+<title>WBB - The world’s first legal cryptocurrency bank</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<base href="https://wbb.io/">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="google-site-verification" content="_-QYJrL16_1lHlt7rKFKnz-QqPJ8KQ0N_I28qfvqmBs" />
+<link rel="stylesheet" href="templates/main/js/libs/magnific-popup/magnific-popup.css">
+<link rel="stylesheet" href="templates/main/font/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="templates/main/js/libs/swiper/swiper.min.css">
+<link rel="stylesheet" href="templates/main/js/libs/dataTables/dataTables.bootstrap.min.css">
+<link rel="stylesheet" href="templates/main/css/main.css?v=10092018-1443">
+<link rel="apple-touch-icon" sizes="180x180" href="templates/main/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="templates/main/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="templates/main/favicon/favicon-16x16.png">
+<link rel="manifest" href="templates/main/favicon/manifest.json">
+<link rel="mask-icon" href="templates/main/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+        
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TRC2P8S');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '202096183724746'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=202096183724746&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<script src="templates/main/js/moments.min.js"></script>
+<script src="templates/main/js/moment-timezone-with-data.js"></script>
+        
+    </head>
+    <body>
+        <!-- Preloader-->
+        <div class="loader">
+            <div class="loader__block"></div>
+        </div>
+        <!-- Header-->
+        
+        <div id="popup" class="popup mfp-hide">
+            <div class="popup__content">
+                <div class="popup__title">World Bit Bank</div>
+                <p>And we decided to make an instruction for you in order to invest correctly.</p>
+                <p>So, to purchase tokens investor should send ETH (not less than minimum 0.1 ETH) to corresponding crowdsale contract: <b class="b320-overflow">0x63eff8663f73BBBae7f74B08B3c0Ac00e5132fC7</b></p>
+                <p>Recommended GAS: 250000, GAS PRICE - 21 Gwei.</p>
+
+                <div class="input-group">
+                    <!-- Target -->
+                    <input readonly id="key" value="0x63eff8663f73BBBae7f74B08B3c0Ac00e5132fC7">
+                    
+                    <!-- Trigger -->
+                    <span class="input-group-button">
+                        <button class="btn" data-clipboard data-clipboard-target="#key">
+                            <img class="clippy" src="https://clipboardjs.com/assets/images/clippy.svg" alt="Copy to clipboard" width="13" id="copybtn">
+                        </button>
+                    </span>
+                </div>
+
+                <p>You should invest using wallets that support ERC20, such as:<br>1. MyEtherWallet - <a target="_blank" href="https://www.myetherwallet.com/">https://www.myetherwallet.com/</a><br>2. Parity <br>3. Mist/Ethereum wallet</p>
+                <p><b>Attention‼</b> ️DO NOT use other wallets, coinmarkets, stocks or exchanges. This can lead you to losing your money.</p>
+                <p>After the investment is done, for the further token’s display in your wallet, add them in the following way:<br>1. Paste the token's address: <b class="b320-overflow">0x195A179BBfe539Bb8a485D944ac60d3A0329f0eC</b><br>2. Paste the token symbol: <b>WBBC</b><br>3. Paste the Desimals of Precision: <b>18</b></p>
+                <p>You can <a href="https://my.wbb.io/site/login">buy</a> the tokens on our website. Also for payments processing via BTC or for transactions tracking you need to <a href="https://my.wbb.io/site/signup">register</a>.</p>
+                
+                <div class="text-center">
+                    <a href="https://my.wbb.io/token/buy" id="buy-token" class="btn btn--color">Buy token </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRC2P8S"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+        <header class="header header__landing">
+    <div class="container">
+        <div class="header-container__top">
+            <div class="logo-euro">
+                <img src="templates/main/img/euro-flag.svg" alt="">
+            </div>
+            <div class="header__info">
+                <div class="header__info-top">Wibcoin</div>
+                <div class="header__info-popup"><div>World Bit Bank (WBB) is an international cryptocurrency bank project which is a business model of the new financial world without classic centralisation, while providing the full range of traditional banking services. Wibcoin is the accounting unit of all transactions in the WBB ecosystem.</div></div>
+            </div>
+        </div>
+        <button type="button" id="header__button" class="header__button"><i class="fa fa-bars"></i></button>
+        <div class="header__logo">
+            <svg version="1.0" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                	 width="112px" height="36px" viewBox="0 0 341 141" style="enable-background:new 0 0 341 141;" xml:space="preserve">
+                <style type="text/css">
+                	.st0{fill:#FFFFFF;}
+                </style>
+                <g>
+                	<path class="st0" d="M221.8,69.7c4.2-5.1,6.7-11.6,6.7-18.7c0-16.2-13.2-29.4-29.4-29.4h-48.8c-0.1,0-0.2,0-0.3,0
+                		c-0.2,0-0.4,0-0.5,0c-0.2,0-0.4,0-0.6,0.1c-0.1,0-0.2,0-0.3,0c-0.2,0-0.4,0.1-0.6,0.2c-0.1,0-0.1,0-0.2,0c-0.2,0.1-0.4,0.1-0.7,0.2
+                		c-0.1,0-0.1,0-0.2,0.1c-0.2,0.1-0.4,0.2-0.6,0.3c-0.1,0-0.1,0.1-0.2,0.1c-0.2,0.1-0.3,0.2-0.5,0.3c-0.1,0.1-0.2,0.1-0.3,0.2
+                		c-0.1,0.1-0.3,0.2-0.4,0.3c-0.1,0.1-0.2,0.2-0.3,0.2c-0.1,0.1-0.2,0.2-0.3,0.3c-0.1,0.1-0.2,0.2-0.3,0.3c-0.1,0.1-0.2,0.2-0.3,0.3
+                		c-0.1,0.1-0.2,0.2-0.3,0.4c-0.1,0.1-0.2,0.2-0.3,0.3c-0.1,0.1-0.2,0.2-0.3,0.4c-0.1,0.2-0.2,0.3-0.3,0.5c0,0.1-0.1,0.2-0.1,0.2
+                		c-0.2,0.3-0.3,0.6-0.4,0.9l-26.8,62.4L98.8,51.3l7.4-17.2c2-4.6-0.2-9.9-4.7-11.8c-4.6-2-9.9,0.2-11.8,4.7L62.8,89.5L35.9,27
+                		c-2-4.6-7.3-6.7-11.8-4.7c-4.6,2-6.7,7.3-4.7,11.8l35.1,81.8c1.4,3.3,4.7,5.5,8.3,5.5s6.9-2.1,8.3-5.5L89,74.1l17.9,41.8
+                		c1.4,3.3,4.7,5.5,8.3,5.5s6.9-2.1,8.3-5.5l32.8-76.3h42.9c6.3,0,11.4,5.1,11.4,11.4s-5.1,11.4-11.4,11.4h-35c-5,0-9,4-9,9v40.9
+                		c0,5,4,9,9,9h38.3c16.2,0,29.4-13.2,29.4-29.4C231.9,83,228,75.1,221.8,69.7z M202.5,103.3h-29.3V80.4h26h3.3
+                		c6.3,0,11.4,5.1,11.4,11.4S208.8,103.3,202.5,103.3z"/>
+                	<path class="st0" d="M315.2,69.7c4.2-5.1,6.7-11.6,6.7-18.7c0-16.2-13.2-29.4-29.4-29.4h-35c-5,0-9,4-9,9v40.9v40.9c0,5,4,9,9,9
+                		h38.3c16.2,0,29.4-13.2,29.4-29.4C325.3,83.1,321.4,75.1,315.2,69.7z M266.6,39.5h26c6.3,0,11.4,5.1,11.4,11.4s-5.1,11.4-11.4,11.4
+                		h-26V39.5z M295.9,103.3h-29.3V80.4h26h3.3c6.3,0,11.4,5.1,11.4,11.4S302.2,103.3,295.9,103.3z"/>
+                </g>
+                </svg>
+            
+        </div>
+        
+        <a href="#popup" class="header__btn open-popup-link">Sign in</a>
+        
+        <div class="header__lang">
+    <div class="header__lang-title"><span>En</span><i class="fa fa-angle-down"></i></div>
+    <div class="header__lang-wrapper">
+        <ul>
+            <li><a href="https://ru.wbb.io/" class="Ру">Ру</a></li>
+<li><a href="https://de.wbb.io/" class="De">De</a></li>
+<li><a href="https://jp.wbb.io/" class="Jp">Jp</a></li>
+<li><a href="https://cn.wbb.io/" class="Cn">Cn</a></li>
+        </ul>
+    </div>
+</div>
+        <nav role="navigation" class="header__nav">
+            
+            <ul>
+                <li><a href="#102" #102>Description</a></li><li><a href="#103" #103>Advantages</a></li><li><a href="#116" #116>Roadmap</a></li><li><a href="#125" #125>Team</a></li><li><a href="faq/" faq/>FAQ</a></li>
+                <li><a href="/file/images/137/4/White-Paper-World-Bit-Bank-EN-9.pdf" target="_blank">White paper</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+</header>
+
+<div class="header-fixed"></div>
+        
+        <div class="botton-bar" id="js-botton-bar">
+          <div class="botton-bar__wrapper">
+            <div class="token-botton-price">
+              <div class="token-botton-price__item">
+                <span>1 Wibcoin = 1€ price:</span> <strong>0,0038 ETH</strong>
+              </div>
+              <div class="token-botton-price__item">
+                <span>1 Wibcoin = 1€ price:</span> <strong>0,00017 BTC</strong>
+              </div>
+              <div class="token-botton-price__item">
+                <span>ICO Participants:</span> <strong>1200+</strong>
+              </div>
+            </div>
+            <div><a href="#popup" class="btn btn--color open-popup-link" id="bottom-btn-foot">BUY Wibcoin token</a></div>
+            <div><a class="botton-bar__soc-link--tg" href="https://t.me/WBBCoin" id="telegram_botton-bar_link" target="_blank" title="telegram"></a></div>
+          </div>
+        </div>
+        <div class="fix-cookie visible-block">
+            <div class="fix-cookie-text">Cookies help us deliver our services. By using our services, you agree to our use of cookies.</div>
+            <div class="fix-cookie-link"><a href="privacy-policy.html">Lern more</a></div>
+            <div class="btn btn--color remove-block">Got it</div>
+        </div>
+        
+        <!-- Main section-->
+        <div id="particles-js" class="main-section main-section__12062018 section-particles-js">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12  hidden-lg">
+                        <div class="main-section__info">
+                            <div class="main-section__title_1">World Bit Bank</div>
+                            <div class="main-section__title_2">The world’s first legal cryptocurrency bank<br><span>Licenses <a href="https://mtr.mkm.ee/taotluse_tulemus/478888" target="_blank">FRK000019</a>, <a href="https://mtr.mkm.ee/taotluse_tulemus/478892" target="_blank">FVR000027</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        
+                        <div class="main-section__phone">
+                            <a href="https://icobench.com/ico/world-bit-bank" target="_blank">
+                                <div class="ico-bench-wrapper">
+                                    <img src="templates/main/img/ico_bench_final.png" alt="" class="main-section__pre-phone-img">
+                                    <div>4.8</div>
+                                </div>
+                            </a>
+                            <p class="main-section__phone__p">Cryptobank in your smartphone</p>
+                            <img src="templates/main/img/wbb-two-phone-new.png" class="main-section__phone-img" alt="">
+                            <div class="main-section__phone-btn">
+                                <div><a class="main-section__phone-video popup-youtube" href="https://www.youtube.com/watch?v=EwGI544bcjg"><i class="fa fa-play-circle"></i><span>Watch<br><strong>Video</strong></span></a></div>
+                                <div><a target="_blank" href="https://play.google.com/store/apps/details?id=com.wordbit.bank"><img src="templates/main/img/img-google-store.png" alt=""></a></div>
+                                <div><a target="_blank" href="javascript:void(0)"><img src="templates/main/img/img-app-store.png" alt=""></a></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-6">
+                        
+                        <div class="main-section__info visible-lg">
+                            <div class="main-section__title_1">World Bit Bank</div>
+                            <div class="main-section__title_2">The world’s first legal cryptocurrency bank<br><span>Licenses <a href="https://mtr.mkm.ee/taotluse_tulemus/478888" target="_blank">FRK000019</a>, <a href="https://mtr.mkm.ee/taotluse_tulemus/478892" target="_blank">FVR000027</a></span></div>
+                        </div>
+                        
+                        <div class="main-section__counter ">
+                            <div class="bcount">
+                                 
+                            </div>
+                            <div class="counter__title">&nbsp;
+                                
+                                <br><span>Until the end of the ICO</span>
+                                
+                                </div>
+                            <div class="counter__wrapper">
+                                <div class="counter__wrapper-block">
+                                    <div class="countdown"></div>
+                                </div>
+                                
+                                <div class="counter__wrapper-button"><a href="#popup" class="btn btn--color open-popup-link" id="ga1">BUY Wibcoin token</a></div>
+                            </div>
+                        </div>
+                        <div class="main-section__investments hidden-xs">
+                            
+                            <div class="main-section__investments-row">
+                                <div class="social-header">
+                                    <div><a href="https://twitter.com/WorldBitBank" target="_blank"> <i class="fa fa-twitter"></i></a></div>
+                                    <div><a href="https://www.facebook.com/WorldBitBank/" target="_blank"> <i class="fa fa-facebook"></i></a></div>
+                                    
+                                    <div><a href="https://www.reddit.com/user/WorldBitBanktoken/" target="_blank"> <i class="fa fa-reddit-alien"></i></a></div>
+                                    <div><a href="https://t.me/WBBCoin" target="_blank"> <i class="fa fa-telegram"></i></a></div>
+                                    <div><a href="https://www.instagram.com/worldbitbanktoken/" target="_blank"> <i class="fa fa-instagram"></i></a></div>
+                                    <div><a href="https://medium.com/@coinwbb" target="_blank"> <i class="fa fa-medium"></i></a></div>
+                                    <div><a href="https://www.youtube.com/channel/UC4xgZJttyDVr6ZpEf57Ra2g" target="_blank"> <i class="fa fa-youtube"></i></a></div>
+                                    <div><a href="https://bitcointalk.org/index.php?topic=3206437.0;topicseen" target="_blank"> <i class="fa fa-btc"></i></a></div>
+                                    
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+                        <div class="accept-block">
+                            <div><strong>We accept: </strong><span><i>BTC</i> <img src="templates/main/img/btc-icon.png" alt="btc"> <img src="templates/main/img/eth-icon.png" alt="eth"><i>ETH</i></span></div>
+                        </div>
+                        <div class="main-section__investments visible-xs">
+                                
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        
+                                        
+                                        
+                                            <div class="swiper-slide">
+                                                <div class="main-section__investments-block">
+                                                    <div><a href="https://twitter.com/WorldBitBank" target="_blank"> <i class="fa fa-twitter"></i></a></div>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                            <div class="swiper-slide">
+                                                <div class="main-section__investments-block">
+                                                    <div><a href="https://www.facebook.com/WorldBitBank/" target="_blank"> <i class="fa fa-facebook"></i></a></div>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                        
+                                            <div class="swiper-slide">
+                                                <div class="main-section__investments-block">
+                                                    <div><a href="https://www.reddit.com/user/WorldBitBanktoken/" target="_blank"> <i class="fa fa-reddit-alien"></i></a></div>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                            <div class="swiper-slide">
+                                                <div class="main-section__investments-block">
+                                                    <div><a href="https://t.me/WBBCoin" target="_blank"> <i class="fa fa-telegram"></i></a></div>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                            <div class="swiper-slide">
+                                                <div class="main-section__investments-block">
+                                                    <div><a href="https://www.instagram.com/worldbitbanktoken/" target="_blank"> <i class="fa fa-instagram"></i></a></div>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                            <div class="swiper-slide">
+                                                <div class="main-section__investments-block">
+                                                    <div><a href="https://medium.com/@coinwbb" target="_blank"> <i class="fa fa-medium"></i></a></div>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                            <div class="swiper-slide">
+                                                <div class="main-section__investments-block">
+                                                    <div><a href="https://www.youtube.com/channel/UC4xgZJttyDVr6ZpEf57Ra2g" target="_blank"> <i class="fa fa-youtube"></i></a></div>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                            <div class="swiper-slide">
+                                                <div class="main-section__investments-block">
+                                                    <div><a href="https://bitcointalk.org/index.php?topic=3206437.0;topicseen" target="_blank"> <i class="fa fa-btc"></i></a></div>
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                    <div class="swiper-button-prev"><i class="fa fa-angle-left"></i></div>
+                                    <div class="swiper-button-next"><i class="fa fa-angle-right"></i></div>
+                                </div>
+                            </div>
+                            
+                        <div class="hidden-lg text-center" style="font-size: 17px;">
+                            <div class="clear25"></div>
+                            <p class="no--p no--m"><b>1 Wibcoin = 1 € price:</b> <br>0,0038 ETH <br>0,00017 BTC</p>
+                        </div>
+                        
+                        <div class="main-section__progress main-section__progress--7">
+                            <div class="main-section__progress-title">16 724 502 €</div>
+                            
+                            <div class="main-section__progress-body">
+                                <div class="main-section__progress-number">0</div>
+                                <div class="main-section__progress-number main-section__progress-number--right">500 mil. €<div style="position:absolute;top:60px;min-width: 70px;left:-15px">HARD CAP</div></div>
+                                
+                                <div class="main-section__progress-line"></div>
+                                <div class="main-section__progress-counter" style="white-space: nowrap"><span class="progress-middle-text">250 mil. €</span><div style="position:absolute;top:60px" class="progress-middle-text">SOFT CAP</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+        
+        <!-- Content-->
+        <div class="content">
+            
+            <a name="286"></a>
+             <section class="section press">
+                <div >
+                <div class="container">
+                    
+                    <div class="section__head section__head--white">
+                        <div class="h1" style="color:#1e2b31">Team work</div>
+                    </div>
+                    
+                    <a href="https://www.youtube.com/watch?v=uUaz_fGJlNs" class="description__video description__video--commands popup-youtube">
+                        <img src="/file/images/286/4/video-2.jpg" alt="Team work" class="img-responsive">
+                        <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="ytp-large-play-button-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#212121" fill-opacity="0.8"></path><path d="M 45,24 27,14 27,34" fill="#fff"></path></svg>
+                    </a>
+                    
+                </div>
+            </div>
+            </section>
+            <!-- Section-->
+            <a name="102"></a>
+            <section class="section description project">
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="https://www.youtube.com/watch?v=v1Iji78PbOs" class="description__video popup-youtube">
+                                <img src="resize/file/images/3/4/image-youtube_b3f42_c09b28b1dd5e9178b12c6080b9ac4bf1_b3f42_resize_555_0.jpg" alt="Description of project" class="img-responsive">
+                                <svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="ytp-large-play-button-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#212121" fill-opacity="0.8"></path><path d="M 45,24 27,14 27,34" fill="#fff"></path></svg>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="description__info">
+                                <div class="description__info-wrapper">
+                                    <div class="section__head">
+                                        <div class="h1">Description of project</div>
+                                    </div>
+                                    <p><p>The World Bit Bank project will create a group of cryptocurrency banks by acquiring existing banks in different countries (USA, Canada, Brazil, Germany, UK, Switzerland, Turkey, India, Japan, Australia) to service cryptocurrency customers.</p>
+<p>To deliver the full range of financial services, World Bit Bank will include the following:</p>
+<ul>
+<li>a leasing company;</li>
+<li>an insurance company;</li>
+<li>a cryptocurrency fund.</li>
+</ul>
+<p>Vitsolutions, LLC has been conducting technical development of the World Bit Bank project and researching innovative financial technologies and the blockchain technology since 2016. World Bit Group which manages the World Bit Bank was established in 2018. It was registered in the EU and holds the Virtual currency against fiat currency exchange license and the Virtual currency wallet service license. Being under European jurisdiction, all real and digital assets of investors will have the highest security.</p>
+<p>By covering a large portion of the globe, we will be able to provide millions of people with banking services using cryptocurrency in conventional banking operations. Such services include: cryptocurrency loans, use of cryptocurrency in VISA/MasterCard debit cards, easy and cheap transfer and exchange of cryptocurrencies and many more financial transactions we make every day.</p></p>
+                                    
+                                    <a href="/file/images/137/4/White-Paper-World-Bit-Bank-EN-9.pdf" class="btn" target="_blank">In detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a name="511"></a>
+            <!-- Section-->
+            <section class="section press">
+                <div class="container">
+                    <div class="section__head">
+                        <div class="h1">Press about us</div>
+                    </div>
+                    <div class="press__row">
+                        <div class="press__block ">
+    <a href="https://blockonomi.com/world-bit-bank-pre-ico-success/" target="_blank">
+        <img src="resize/file/images/0/4/pressa-logo-blockonomi_b3f42_9df9c5ce3d1f9f80edff23fc3d80133f_b3f42_resize_150_0.png" alt="Blockonomi">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://blockonomi.com/forbes-world-bit-bank/" target="_blank">
+        <img src="resize/file/images/0/4/pressa-logo-blockonomi_b3f42_9df9c5ce3d1f9f80edff23fc3d80133f_b3f42_resize_150_0.png" alt="Blockonomi">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.ccn.com/world-bit-bank-the-best-crypto-finance-project-of-2018/" target="_blank">
+        <img src="resize/file/images/0/4/pressa-logo-ccn_b3f42_12f12da40299c6ff02f098986cc8ccdc_b3f42_resize_150_0.png" alt="CCN">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.coinspeaker.com/2018/04/02/world-bit-bank-worlds-first-legal-cryptocurrency-bank/" target="_blank">
+        <img src="resize/file/images/43/4/pressa-logo-coinspeaker_b3f42_33654ddeda87abb7f129312cdee54967_b3f42_resize_150_0.png" alt="Coinspeaker">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.altcoinss.com/news/news-world-bit-bank-the-world-s-first-legal-cryptocurrency-bank?uid=10743" target="_blank">
+        <img src="resize/file/images/528/4/pressa-logo-altcoinss_b3f42_129da4bb456b399e20c0dca67b55772a_b3f42_resize_150_0.png" alt="Altcoinss">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.currencytimes.co.in/world-bit-bank-worlds-first-legal-cryptocurrency/" target="_blank">
+        <img src="resize/file/images/0/4/pressa-logo-currencytimes_b3f42_7b5eb72a31ee2dc321c67feb8426af76_b3f42_resize_150_0.png" alt="CurrencyTimes">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://bitscreener.com/news/world-bit-bank-the-world-s-first-legal-cryptocurrency-bank" target="_blank">
+        <img src="resize/file/images/0/4/pressa-logo-bit-screener_b3f42_55c928bdfe1fa4d8819ee3dd3f6ef118_b3f42_resize_150_0.png" alt="Bitscreener">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://cryptoticker.io/de/vitsolutions-arbeitet-an-der-ersten-internationalen-kryptobank/" target="_blank">
+        <img src="resize/file/images/622/4/pressa-logo-cryptoticker_b3f42_a66427000e28df25f7d1dd466c558e71_b3f42_resize_150_0.png" alt="Cryptoticker">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://icobench.com/ico/world-bit-bank/milestones" target="_blank">
+        <img src="resize/file/images/627/4/icobench_b3f42_223fa16f0dc3e17b3686a551fb0ccc62_b3f42_resize_150_0.png" alt="Icobench">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.ccn.com/world-bit-bank-the-worlds-first-legal-cryptocurrency-bank/" target="_blank">
+        <img src="resize/file/images/0/4/pressa-logo-ccn_b3f42_12f12da40299c6ff02f098986cc8ccdc_b3f42_resize_150_0.png" alt="CCN">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.trackico.io/ico/world-bit-bank/" target="_blank">
+        <img src="resize/file/images/628/4/trackico.io_b3f42_51e20bd8ac1533eb36ab5f38dcdf1cc8_b3f42_resize_150_0.png" alt="Trackico">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.coingecko.com/en/ico/world-bit-bank" target="_blank">
+        <img src="resize/file/images/629/4/coingecko_b3f42_b26c515cc92fb7d7be0d6ce362488133_b3f42_resize_150_0.png" alt="Coingecko">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://bitcoinexchangeguide.com/world-bit-bank-ico-wbb-token/" target="_blank">
+        <img src="resize/file/images/630/4/bitcoinexchangeguide_b3f42_c23b0de70e9a807a39f35ff9b3f2a1aa_b3f42_resize_150_0.png" alt="Bitcoinexchangeguide">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.incrypts.com/cryptocurrency-news/world-bit-bank-will-worlds-first-legal-crypto-bank/" target="_blank">
+        <img src="resize/file/images/631/4/incrypts_b3f42_641afd70904bc461fd5012b9fdf22a7b_b3f42_resize_150_0.png" alt="Incrypts">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://coin-hero.de/world-bit-bank-die-erste-legale-kryptowaehrungsbank-der-welt/" target="_blank">
+        <img src="resize/file/images/632/4/coin-hero_b3f42_e372befbe6ee313d550fa8e1be4aa509_b3f42_resize_150_0.png" alt="Coin-hero">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="http://www.coinnuts.com/world-bit-bank-the-worlds-first-legal-cryptocurrency-bank/" target="_blank">
+        <img src="resize/file/images/633/4/coinnuts_b3f42_c7b11cf67921e0e57d8091f0dda74c19_b3f42_resize_150_0.png" alt="Coinnuts">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://bestcrypto.tv/787/world-bit-bank-ico-review/" target="_blank">
+        <img src="resize/file/images/679/4/bestcrypto.tv_b3f42_bf11ea7e08e8d6dd42617cf0e4b9be0d_b3f42_resize_150_0.png" alt="Bestcrypto">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://blockonomi.com/world-bit-bank/" target="_blank">
+        <img src="resize/file/images/42/4/pressa-logo-blockonomi_b3f42_9df9c5ce3d1f9f80edff23fc3d80133f_b3f42_resize_150_0.png" alt="Blockonomi">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="http://betaico.com/wbb" target="_blank">
+        <img src="resize/file/images/684/4/betaico_b3f42_78ae2f7a27581e8671f7d408b44cb9cd_b3f42_resize_150_0.png" alt="Betaico">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://bitcoinist.com/days-pre-ico-start-worlds-first-legal-cryptocurrency-bank/" target="_blank">
+        <img src="resize/file/images/689/4/bitcoinist.com_b3f42_4c3cbff0659281f24fdb9a34909b3bfb_b3f42_resize_150_0.png" alt="Bitcoinist">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.bitmoneynews.com/news/introducing-the-wbb-the-worlds-first-cryptocurrency-bank/" target="_blank">
+        <img src="resize/file/images/694/4/bitmoneynews.com_b3f42_f13924232e0145526deca79a0c3fc5f6_b3f42_resize_150_0.png" alt="Bitmoneynews">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.bitsavana.com/2018/04/world-bit-bank-worlds-first-legal.html" target="_blank">
+        <img src="resize/file/images/699/4/bitsavana_b3f42_4f20fed88db663f8ee8558dbc7c6489b_b3f42_resize_150_0.png" alt="Bitsavana">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="http://blogs.trendolizer.com/2018/05/world-bit-bank-visa-cooperation-world-bit-bank-medium.html" target="_blank">
+        <img src="resize/file/images/704/4/blogs.trendolizer_b3f42_3b766b20b52ecf95ea8259da944e96c2_b3f42_resize_150_0.png" alt="Blogs">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://calendar-ico.com/world-bit-bank-ico-pervyj-legalnyj-kriptobank/" target="_blank">
+        <img src="resize/file/images/709/4/calendar-ico.com_b3f42_051699726a9d265100f082ea7a8c1f20_b3f42_resize_150_0.png" alt="Calendar ico">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://chaining.ru/2018/04/02/world-bit-bank-the-world-s-first-legal-cryptocurrency-bank/" target="_blank">
+        <img src="resize/file/images/715/4/chaining-new_b3f42_352dab4fe9370fae6bdb85bc500c9201_b3f42_resize_150_0.png" alt="Chaining">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.coinhills.com/ico/view/world-bit-bank/" target="_blank">
+        <img src="resize/file/images/719/4/coinhills_b3f42_4550d228b61e2a8232cdab478bd17760_b3f42_resize_150_0.png" alt="Coinhills">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://coinlaw.eu/2018/04/06/world-bit-bank-the-worlds-first-legal-cryptocurrency-bank/" target="_blank">
+        <img src="resize/file/images/724/4/coinlaw_b3f42_a94f9195f1611923d95cbfc490f9bb55_b3f42_resize_150_0.png" alt="Coinlaw">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.coinmarkets.net/ico/492/world-bit-bank-preico/" target="_blank">
+        <img src="resize/file/images/730/4/Coinmarkets-new_b3f42_48e38197d2e9cec19327909b6bea3c54_b3f42_resize_150_0.png" alt="Coinmarkets">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://cryptocoinpravda.com/world-bit-bank-the-world-s-first-legal-cryptocurrency-bank.html" target="_blank">
+        <img src="resize/file/images/739/4/cryptocoinpravd_b3f42_693e991c0f15ac6a27eb09414714577e_b3f42_resize_150_0.png" alt="Cryptocoinpravd">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.cryptonetix.com/world-bit-bank-the-worlds-first-legal-cryptocurrency-bank-2/" target="_blank">
+        <img src="resize/file/images/744/4/cryptonetix.com_b3f42_332072904967355d6919e1fc19864934_b3f42_resize_150_0.png" alt="Cryptonetix">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="http://cryptoshowoff.com/world-bit-bank-first-legal-cryptocurrency-bank/" target="_blank">
+        <img src="resize/file/images/749/4/cryptoshowoff_b3f42_b15b7f98cbdd4bd69653e9bf1a1a2d65_b3f42_resize_150_0.png" alt="Cryptoshowoff">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://cryptototem.com/world-bit-bank-wbb-ico/" target="_blank">
+        <img src="resize/file/images/754/4/Cryptototem.com-logo_b3f42_b3d6c8cae477c7bd40e6df697ff1d5e5_b3f42_resize_150_0.png" alt="Cryptototem">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://digrate.com/ru/ico/world-bit-bank" target="_blank">
+        <img src="resize/file/images/759/4/digrate_b3f42_e622af27c890e6f0c3bd8dae06743f87_b3f42_resize_150_0.png" alt="Digrate">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://en.coinjinja.com/ico/world-bit-bank" target="_blank">
+        <img src="resize/file/images/764/4/en.coinjinja_b3f42_22b8e3a22944649e1dff628ec5f738be_b3f42_resize_150_0.png" alt="Coinjinja">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.firstorderhistorians.com/2018/04/25/world-bit-bank-the-first-legal-crypto-currency-bank-in-the-world/" target="_blank">
+        <img src="resize/file/images/769/4/firstorderhistorians_b3f42_09f2c6345c7ec59350345c9da4f7f714_b3f42_resize_150_0.png" alt="First order historians">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://forum.bits.media/index.php?/blogs/entry/1876-world-bit-bank-ico-криптобанк/" target="_blank">
+        <img src="resize/file/images/774/4/forum.bits.media_b3f42_1dc5c908bda9e673f6f9af2c200b1b4c_b3f42_resize_150_0.png" alt="Bits media">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://goldvoice.club/@cryptokoss/world-bit-bank-obzor/" target="_blank">
+        <img src="resize/file/images/779/4/goldvoice.club_b3f42_9900b339fbea0c5070c95a2710e98cf1_b3f42_resize_150_0.png" alt="Gold voice club">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://golos.io/ico/@dimedroll/world-bit-bank--pervyj-legalnyj-kriptobank-06-09" target="_blank">
+        <img src="resize/file/images/785/4/golos-new_b3f42_c1083fa64b1f8ec8377cb7146c0360af_b3f42_resize_150_0.png" alt="Golos">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://icobounty.top/world-bit-bank-debit-card/" target="_blank">
+        <img src="resize/file/images/789/4/icobounty.top_b3f42_2fa84c459469bd56e3374a5ed8698fe0_b3f42_resize_150_0.png" alt="Icobounty">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://icodeadline.com/topics/4289" target="_blank">
+        <img src="resize/file/images/794/4/icodeadline_b3f42_42c9d284ba4d19f7b2f4721d115c442b_b3f42_resize_150_0.png" alt="Icodeadline">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://icomarketcap.io/world-bit-bank/" target="_blank">
+        <img src="resize/file/images/799/4/icomarketcap.io_b3f42_9f5c7705f13cd255c7f93f6202b7cfbf_b3f42_resize_150_0.png" alt="Icomarketcap">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://iconow.net/ico-1495/" target="_blank">
+        <img src="resize/file/images/804/4/iconow.net_b3f42_0df80ee9f9f9892da6f4371a5812a921_b3f42_resize_150_0.png" alt="Iconow">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://iconow.net/ico-1495/https://icopulse.com/ico/world-bit-bank" target="_blank">
+        <img src="resize/file/images/811/4/icopulsecom-new_b3f42_b862bc22d2909a9810019504330471d8_b3f42_resize_150_0.png" alt="Icopulse">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://icotracker.net/project/world_bit_bank" target="_blank">
+        <img src="resize/file/images/815/4/icotracker.net_b3f42_bebb8823b34813f6717040f91299be15_b3f42_resize_150_0.png" alt="Icotracker">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://investfuture.ru/ico/world-bit-bank" target="_blank">
+        <img src="resize/file/images/820/4/investfuture.ru_b3f42_e17dda3aed9cdf9ac31fd5833d4cb7b7_b3f42_resize_150_0.png" alt="Investfuture">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://ischoolblogs.sjsu.edu/blockchains/feed-items/world-bit-bank-the-worlds-first-legal-cryptocurrency-bank/" target="_blank">
+        <img src="resize/file/images/825/4/ischoolblogs.sjsu.edu_b3f42_589df1b55b43ff5da63ec3c609df3122_b3f42_resize_150_0.png" alt="Ischoolblogs">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="http://www.masterforex-v.org/ratings_news/entry10023970.html" target="_blank">
+        <img src="resize/file/images/830/4/masterforex-v_b3f42_b42abe11349d553ae9f3ca4a48b57cf1_b3f42_resize_150_0.png" alt="Masterforex">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://mixroliki.ru/video/aIYK5PuUyFw/obzor-ico-world-bit-bank-kriptobank/" target="_blank">
+        <img src="resize/file/images/835/4/mixroliki.ru_b3f42_fcbaad2d8b64dbfa72f92d55863afdc2_b3f42_resize_150_0.png" alt="Mixroliki">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://neironix.io/ru/ico-rating/world_bit_bank" target="_blank">
+        <img src="resize/file/images/840/4/neironix.io_b3f42_5bc9e581963a0a031e746fc9e197de32_b3f42_resize_150_0.png" alt="Neironix">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://novom.ru/en/watch/LH_OUvkOxDI" target="_blank">
+        <img src="resize/file/images/845/4/novom.ru_b3f42_34adef5bf03f8a2155e10f4067e11ef3_b3f42_resize_150_0.png" alt="Novom">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://ruth.news/208-world-bit-bank" target="_blank">
+        <img src="resize/file/images/850/4/ruth.news_b3f42_07c50b9911084a79b41d4b3cf641eff4_b3f42_resize_150_0.png" alt="Ruth">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://steemkr.com/ico/@maikl/world-bit-bank-pervyi-v-mire-yuridicheskii-kriptovalyutnyi-bank" target="_blank">
+        <img src="resize/file/images/856/4/steemKR-beta-new_b3f42_a91ac2ac24f2773949f6c14f8af5c026_b3f42_resize_150_0.png" alt="Steemkr">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="http://toptokensales.com/catalog/world-bit-bank/" target="_blank">
+        <img src="resize/file/images/860/4/toptokensales_b3f42_9bfbc9148f39f6b6d01160189c08491e_b3f42_resize_150_0.png" alt="Toptokensales">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://tropyc.co/crypto/world-bit-bank" target="_blank">
+        <img src="resize/file/images/866/4/tropyc-new_b3f42_970c716fa16e478965bff1d7bd78895b_b3f42_resize_150_0.png" alt="Tropyc">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://w12.io/project-card/world-bit-bank/" target="_blank">
+        <img src="resize/file/images/870/4/w12.io_b3f42_449c0dd32dcd02aaf72143489b8c1a6b_b3f42_resize_150_0.png" alt="W12">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.whenmoon.co/world-bit-bank-the-worlds-first-legal-cryptocurrency-bank/" target="_blank">
+        <img src="resize/file/images/875/4/whenmoon_b3f42_cfd0c404260e462fa54bc6e6c31d195a_b3f42_resize_150_0.png" alt="Whenmoon">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://wiserico.com/ico/world-bit-bank" target="_blank">
+        <img src="resize/file/images/880/4/wiserico_b3f42_c2c0f4f93db7c2efc9e47a545381c735_b3f42_resize_150_0.png" alt="Wiserico">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://www.list-ico.com/ico/world-bit-bank/" target="_blank">
+        <img src="resize/file/images/885/4/www.list-ico.com_b3f42_055f5df7a622077f53b7a3523d2b9896_b3f42_resize_150_0.png" alt="List ico">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="https://youtubes.pl/watch/world-bit-bank-wbb-ico-review-the-world-039-s-first-legal-cryptocurrency-bank_sAj5hMrwpZQ-youtubes.html" target="_blank">
+        <img src="resize/file/images/890/4/youtubes.pl_b3f42_cae77c544c862558626cd62c7bac0f66_b3f42_resize_150_0.png" alt="Youtubes">
+     </a>
+    
+</div>
+<div class="press__block ">
+    <a href="http://zagame.net/video/uyArhd-KwkI" target="_blank">
+        <img src="resize/file/images/895/4/Zagame.net_b3f42_10c83b0e628249d666b69294aadfc09d_b3f42_resize_150_0.png" alt="Zagame">
+     </a>
+    
+</div>
+                    </div>
+                </div>
+            </section>
+            <a name="901"></a>
+            <section class="section description project">
+                <div class="container">
+                    <div class="section__head">
+                        <div class="h1">Bloggers about us</div>
+                    </div>
+                    <div class="press__row">
+                        
+                        <div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=9ui76HbHhSM" class="description__video popup-youtube">
+        <img src="resize/file/images/929/4/6Crypto Chemist_b3f42_89455d5becccac41447b34fe3a147fe0_b3f42_resize_254_0.png" alt="BIGGEST EVER CRYPTO BANK! | WORLD BIT BANK ICO REVIEW | $150 BTC GIVEAWAY!" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=9ui76HbHhSM" class="popup-youtube"><p>BIGGEST EVER CRYPTO BANK! | WORLD BIT BANK ICO REVIEW | $150 BTC GIVEAWAY!</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=mmEMzi-3KZU" class="description__video popup-youtube">
+        <img src="resize/file/images/0/4/1Crypto Мир_b3f42_660ff2f4bde926108a3750c563897d15_b3f42_resize_254_0.png" alt="World Bit Bank Important updates ICO !!!" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=mmEMzi-3KZU" class="popup-youtube"><p>World Bit Bank Important updates ICO !!!</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=uyArhd-KwkI" class="description__video popup-youtube">
+        <img src="resize/file/images/911/4/2Тредер Веган-new_b3f42_e3e32465d76d3063dc4e70bdf3cf95a3_b3f42_resize_254_0.png" alt="World Bit Bank - The First Legal CryptoBank / ICO Review [Bounty]" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=uyArhd-KwkI" class="popup-youtube"><p>World Bit Bank - The First Legal CryptoBank / ICO Review [Bounty]</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=pDdrfeUz75s" class="description__video popup-youtube">
+        <img src="resize/file/images/915/4/3Elena ICO_b3f42_bd22dd7184f1f4f7eb7996f6b524a7e4_b3f42_resize_254_0.png" alt="Licensed crypto bank World Bit Bank" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=pDdrfeUz75s" class="popup-youtube"><p>Licensed crypto bank World Bit Bank</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=LH_OUvkOxDI" class="description__video popup-youtube">
+        <img src="resize/file/images/920/4/4ICO coin_b3f42_c10246d74d81b0a757f19a94aae04cc6_b3f42_resize_254_0.png" alt="How to buy WIBCOIN Token on World Bit Bank" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=LH_OUvkOxDI" class="popup-youtube"><p>How to buy WIBCOIN Token on World Bit Bank</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=SKGDUHUx6Ik" class="description__video popup-youtube">
+        <img src="resize/file/images/936/4/7Thu Hoi_b3f42_51b4be3bd2fe7056c31b5284dda02261_b3f42_resize_254_0.png" alt="How World Bit Bank influences the world?" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=SKGDUHUx6Ik" class="popup-youtube"><p>How World Bit Bank influences the world?</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=XKydzw8nDTk" class="description__video popup-youtube">
+        <img src="resize/file/images/941/4/8Cryp Story_b3f42_a6c437cdb4f24fb3ff937e2d4164b2b4_b3f42_resize_254_0.png" alt="World Bit Bank - the world’s first legal cryptocurrency bank" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=XKydzw8nDTk" class="popup-youtube"><p>World Bit Bank - the world’s first legal cryptocurrency bank</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=9ume6JCPBn8" class="description__video popup-youtube">
+        <img src="resize/file/images/946/4/9ICO coin_b3f42_882205e5fd46fa4c1a66e5b87fe30ecd_b3f42_resize_254_0.png" alt="World Bit Bank - The world's fist legal cryptocurrency bank" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=9ume6JCPBn8" class="popup-youtube"><p>World Bit Bank - The world's fist legal cryptocurrency bank</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=M_ZEngvVMWw" class="description__video popup-youtube">
+        <img src="resize/file/images/951/4/10How to make money on ICO_b3f42_1dba0c0926d67950259ef2e00c336f4d_b3f42_resize_254_0.png" alt="ICO World Bit Bank Whitepaper" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=M_ZEngvVMWw" class="popup-youtube"><p>ICO World Bit Bank Whitepaper</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=Zfa0jKps9t8" class="description__video popup-youtube">
+        <img src="resize/file/images/956/4/11Crypto Marco_b3f42_b9084bdd31bb9e3f40ed120f70494b99_b3f42_resize_254_0.png" alt="Worlds FIRST Crypto Bank! Meet WBB ICO" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=Zfa0jKps9t8" class="popup-youtube"><p>Worlds FIRST Crypto Bank! Meet WBB ICO</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=DCdOQOqASVs" class="description__video popup-youtube">
+        <img src="resize/file/images/962/4/12Finanzielle Freiheit dank-new_b3f42_ecb4bcbce7082e9f8baf0f313582f8e0_b3f42_resize_254_0.png" alt="FFDK ICO-REVIEWS - Was ist die WORLD BIT BANK und der WBB Coin Token ?!" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=DCdOQOqASVs" class="popup-youtube"><p>FFDK ICO-REVIEWS - Was ist die WORLD BIT BANK und der WBB Coin Token ?!</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=JL3HdvJFSTw" class="description__video popup-youtube">
+        <img src="resize/file/images/966/4/13Martins Hacks_b3f42_d176b7862f5164180725a5d2daa47d8c_b3f42_resize_254_0.png" alt="WBB ICO REVIEW 2018" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=JL3HdvJFSTw" class="popup-youtube"><p>WBB ICO REVIEW 2018</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=sAj5hMrwpZQ" class="description__video popup-youtube">
+        <img src="resize/file/images/971/4/14Crypto Master_b3f42_ecf3b4006b22cc7a01813824249a143a_b3f42_resize_254_0.png" alt="World Bit Bank - WBB ICO REVIEW | The world's first LEGAL cryptocurrency BANK" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=sAj5hMrwpZQ" class="popup-youtube"><p>World Bit Bank - WBB ICO REVIEW | The world's first LEGAL cryptocurrency BANK</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=4KmWSIkcV6g" class="description__video popup-youtube">
+        <img src="resize/file/images/976/4/15CryptoView - ICO ReviewsNew_b3f42_87a199edb48c0e75caf78f52e0f2c6fe_b3f42_resize_254_0.png" alt="World Bit Bank is the world's first LEGAL CRYPTOBANK! Review of ICO!" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=4KmWSIkcV6g" class="popup-youtube"><p>World Bit Bank is the world's first LEGAL CRYPTOBANK! Review of ICO!</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=Qe-Jv8v6f3c" class="description__video popup-youtube">
+        <img src="resize/file/images/981/4/16CryptoSID_b3f42_aa059a4583b31a2281c5c01328b542f7_b3f42_resize_254_0.png" alt="WBB - First Legal CryptoCurrency BANK !!!" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=Qe-Jv8v6f3c" class="popup-youtube"><p>WBB - First Legal CryptoCurrency BANK !!!</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=q1p5sY-tClM" class="description__video popup-youtube">
+        <img src="resize/file/images/986/4/17The ICO Reviewer_b3f42_6d495c94b35a319434ca4558fa8bf814_b3f42_resize_254_0.png" alt="World Bit Bank ICO Review - WORLD'S FIRST LEGAL CRYPTOBANK!" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=q1p5sY-tClM" class="popup-youtube"><p>World Bit Bank ICO Review - WORLD'S FIRST LEGAL CRYPTOBANK!</p></a>
+</div>
+<div class="bloggers__block">
+    <a href="https://www.youtube.com/watch?v=OaBCVCioLKM" class="description__video popup-youtube">
+        <img src="resize/file/images/991/4/5ICO Talk TV_b3f42_492da5ec7a81b9f86e6492972555e2c8_b3f42_resize_254_0.png" alt="Review of WORLD BIT BANK" class="img-responsive">
+    </a>
+    <a href="https://www.youtube.com/watch?v=OaBCVCioLKM" class="popup-youtube"><p>Review of WORLD BIT BANK</p></a>
+</div>
+                        
+                    </div>
+                </div>
+            </section>
+            </div>
+            
+            <div class="main-section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="counter__wrapper-button"><a href="#popup" class="btn btn--color open-popup-link font-mob" id="ga2">BUY Wibcoin token </a></div>
+            </div>
+        </div>
+    </div>
+</div> 
+             
+            <a name="230"></a>
+            <section class="section iso">
+                <div class="container">
+                    <div class="section__head">
+                        <div class="h1">Project development plan</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/file/images/163/4/plan-of-work.png" alt="Project development plan" class="what__info-img img-responsive">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="iso__info">
+                                <div class="iso__info-wrapper">
+                                    <div class="advantage__block-title">27.04.2018-27.06.2018</div>
+<ul>
+<li>PRE-ICO and raising:<br />
+<ul>
+<li>SOFT CAP €500 thousand, development of the WBB Wallet and development of the WBB Exchange;</li>
+<li>HARD CAP €25 million on acquiring one existing bank in Europe.</li>
+</ul>
+</li>
+</ul>
+<div class="advantage__block-title">27.06.2018-01.09.2018</div>
+<ul>
+<li>Acquisition of an existing bank in Europe;</li>
+<li>Rebranding the bank to World Bit Bank;</li>
+<li>Development of the WBB Mobile Banking prototype;</li>
+<li>Development and introduction of the WBB Wallet;</li>
+<li>Development of the WBB Exchange;</li>
+<li>Establishment of the WBB Fund;</li>
+<li>Establishment of the “WBB Depositary (storage of digital assets);</li>
+<li>Issuing bank customers Visa/Mastercard cryptocurrency debit cards.</li>
+</ul>
+<div class="advantage__block-title">01.09.2018-31.12.2018</div>
+<ul>
+<li>ICO and raising 250 million € for acquisition of nine existing banks (scaling).</li>
+</ul>
+<div class="advantage__block-title">31.01.2019-31.12.2019</div>
+<ul>
+<li>Acquisition of nine existing banks in the following countries:<br />
+<ul class="country-list">
+<li>USA</li>
+<li>Germany</li>
+<li>Switzerland</li>
+<li>UK</li>
+<li>Canada</li>
+<li>India</li>
+<li>Japan</li>
+<li>Australia</li>
+<li>Brazil</li>
+<li>Turkey</li>
+</ul>
+</li>
+<li>Rebranding the banks to World Bit Bank.</li>
+</ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="main-section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="counter__wrapper-button"><a href="#popup" class="btn btn--color open-popup-link font-mob" id="ga3">BUY Wibcoin token </a></div>
+            </div>
+        </div>
+    </div>
+</div> 
+            
+            <a name="103"></a>
+            <section class="section advantage">
+                <div class="container">
+                    <div class="section__head">
+                        <div class="h1">Why us</div>
+                    </div>
+                    <div class="row">
+                        
+                            
+                        <div class="col-md-3 col-sm-6">
+    <div class="advantage__block">
+        <div class="advantage__block-number">01</div>
+        <div class="advantage__block-icon"><i style="background-image: url(/file/images/83/4/03card.png); background-position: 0px 0px;" class="icon icon--advantages-3"></i></div>
+        <div class="advantage__block-title">Debit card</div>
+        <p>Cryptocurrency on your VISA/Mastercard.</p>
+    </div>
+</div>
+<div class="col-md-3 col-sm-6">
+    <div class="advantage__block">
+        <div class="advantage__block-number">02</div>
+        <div class="advantage__block-icon"><i style="background-image: url(/file/images/156/4/06mobility.png); background-position: 0px 0px;" class="icon icon--advantages-1"></i></div>
+        <div class="advantage__block-title">Speed</div>
+        <p>Unlimited instant payment in cryptocurrency</p>
+    </div>
+</div>
+<div class="col-md-3 col-sm-6">
+    <div class="advantage__block">
+        <div class="advantage__block-number">03</div>
+        <div class="advantage__block-icon"><i style="background-image: url(/file/images/7/4/04commision.png); background-position: 0px 0px;" class="icon icon--advantages-2"></i></div>
+        <div class="advantage__block-title">Cost</div>
+        <p>Low charges for transactions and withdrawal of funds</p>
+    </div>
+</div>
+<div class="col-md-3 col-sm-6">
+    <div class="advantage__block">
+        <div class="advantage__block-number">04</div>
+        <div class="advantage__block-icon"><i style="background-image: url(/file/images/5/4/05legality.png); background-position: 0px 0px;" class="icon icon--advantages-1"></i></div>
+        <div class="advantage__block-title">Legality, reliability</div>
+        <p>Fully legal cryptocurrency which can be used for business and paying taxes.</p>
+    </div>
+</div>
+<div class="col-md-3 col-sm-6">
+    <div class="advantage__block">
+        <div class="advantage__block-number">05</div>
+        <div class="advantage__block-icon"><i style="background-image: url(/file/images/157/4/07exchange.png); background-position: 0px 0px;" class="icon icon--advantages-1"></i></div>
+        <div class="advantage__block-title">Exchange</div>
+        <p>Conducting online currency exchange transactions, including with cryptocurrency (buying and selling cryptocurrency)</p>
+    </div>
+</div>
+<div class="col-md-3 col-sm-6">
+    <div class="advantage__block">
+        <div class="advantage__block-number">06</div>
+        <div class="advantage__block-icon"><i style="background-image: url(/file/images/8/4/02decentralized.png); background-position: 0px 0px;" class="icon icon--advantages-4"></i></div>
+        <div class="advantage__block-title">Access</div>
+        <p>Real-time payments anywhere in the world.</p>
+    </div>
+</div>
+<div class="col-md-3 col-sm-6">
+    <div class="advantage__block">
+        <div class="advantage__block-number">07</div>
+        <div class="advantage__block-icon"><i style="background-image: url(/file/images/158/4/08bank.png); background-position: 0px 0px;" class="icon icon--advantages-1"></i></div>
+        <div class="advantage__block-title">Security</div>
+        <p>Highest security of storage of digital assets of customers.</p>
+    </div>
+</div>
+<div class="col-md-3 col-sm-6">
+    <div class="advantage__block">
+        <div class="advantage__block-number">08</div>
+        <div class="advantage__block-icon"><i style="background-image: url(/file/images/6/4/01owner.png); background-position: 0px 0px;" class="icon icon--advantages-1"></i></div>
+        <div class="advantage__block-title">Transparency</div>
+        <p>Access to the entire history of events (monetary transactions).</p>
+    </div>
+</div>
+                        
+                        
+                    </div>
+                </div>
+            </section>
+
+            <div class="main-section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="counter__wrapper-button"><a href="#popup" class="btn btn--color open-popup-link font-mob" id="ga4">BUY Wibcoin token </a></div>
+            </div>
+        </div>
+    </div>
+</div>   
+        
+            <!-- Section-->
+            <a name="110"></a>
+            <section class="section what">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-push-6">
+                            <img src="resize/file/images/110/4/wibcoin-wbb1_b3f42_3654589a109412c9f5d7a2ca97c656f8_b3f42_resize_555_0.jpg" alt="Why you need the Wibcoin (WBBC) token" class="what__info-img img-responsive">
+                        </div>
+                        <div class="col-md-6 col-md-pull-6">
+                            <div class="what__info">
+                                <div class="what__info-wrapper">
+                                    <div class="section__head">
+                                        <div class="h1">Why you need the Wibcoin (WBBC) token</div>
+                                    </div>
+                                    <ul class="what__info-list">
+                                        
+                                        <li>
+    <span class="what__info-number">01</span>
+    <p>Wibcoin (WBBC) is the fastest growing cryptocurrency which enables to make payments, conduct exchange transactions in real time anywhere in the world.</p>
+</li>
+<li>
+    <span class="what__info-number">02</span>
+    <p>Wibcoin (WBBC) will be the unit of account of all transactions in the WBB ecosystem and will serve as the foundation for interaction with other digital services.</p>
+</li>
+
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <div class="main-section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="counter__wrapper-button"><a href="#popup" class="btn btn--color open-popup-link font-mob" id="ga5">BUY Wibcoin token </a></div>
+            </div>
+        </div>
+    </div>
+</div> 
+        
+            <div class="clear50"></div>
+            
+            <a name="124"></a>
+            <section class="section geography no--p">
+                <div class="container">
+                    <div class="geography__wrapper">
+                        <div class="geography__wrapper-content">
+                            <div class="geography__row">
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-6">
+                                        <img src="resize/file/images/24/4/switz-flag_b3f42_9ea474676e087bad3b6aa3998648772b_b3f42_resize_420_0.jpg" alt="Geography of the operations of the multinational banking group" class="img-responsive">
+                                    </div>
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="section__head">
+                                            <div class="h1">Geography of the operations of the multinational banking group</div>
+                                        </div>
+                                        <p>After the ICO, our bank will be available primarily in the EU and the following countries:</p>
+<ul>
+<li>USA</li>
+<li>Canada</li>
+<li>Brazil</li>
+<li>Germany</li>
+<li>Turkey</li>
+<li>Japan</li>
+<li>Australia</li>
+<li>India</li>
+<li>Switzerland</li>
+<li>UK</li>
+</ul>
+<p>World Bit Bank will be managed from the headquarters in Zug, Switzerland.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="clear50"></div>
+        
+            <div class="main-section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="counter__wrapper-button"><a href="#popup" class="btn btn--color open-popup-link font-mob" id="ga6">BUY Wibcoin token </a></div>
+            </div>
+        </div>
+    </div>
+</div> 
+                
+            <a name="123"></a>
+            <section class="section iso">
+                <div class="container">
+                    <div class="section__head">
+                        <div class="h1">ICO</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            
+                            <img src="resize/file/images/123/4/image.eng_b3f42_ee7b63d99c7dd4432ee6d37935806c08_b3f42_resize_420_0.jpg" alt="ICO" class="img-responsive iso__info-img">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="iso__info">
+                                <div class="iso__info-wrapper">
+                                    <p>The key figure of our European holding is World Bit Group, which will sell Wibcoin (WBBC) tokens during ICO.</p>
+<p>The Wibcoin (WBBC) token is based on the ETHEREUM platform, ERC-20 standard.</p>
+<p>SOFT CAP = € 250 million equivalent to 333 805.11 ETH (at an exchange of € 748.94\1ETH, as of 16.02.2018).</p>
+<p>Includes marketing, acquisition of 9 existing banks, wage fund.</p>
+<p>HARD CAP = €500 million equivalent to 667 610.22 ETH (at an exchange of € 748.94\1ETH, as of 16.02.2018).</p>
+<p>Includes marketing, acquisition of 9 existing banks, wage fund.</p>
+<p>After the ICO and sale of Wibcoin (WBBC), a network of cryptocurrency banks will be established in various financial jurisdictions that recognise cryptocurrencies across the globe: USA, Canada, Germany, Switzerland, UK, Japan, India, Australia, Turkey and Brazil.</p>
+<p>All will operate under the World Bit Bank brand.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="main-section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="counter__wrapper-button"><a href="#popup" class="btn btn--color open-popup-link font-mob" id="ga7">BUY Wibcoin token </a></div>
+            </div>
+        </div>
+    </div>
+</div> 
+        
+            <div class="clear50"></div>
+            
+            <a name="240"></a>
+            <section class="section geography no--p">
+                <div class="container">
+                    <div class="geography__wrapper">
+                        <div class="geography__wrapper-content">
+                            <div class="geography__row">
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-6">
+                                        <img src="/file/images/240/4/Card-wbb-2018.jpg" alt="Our debit cards" class="img-responsive">
+                                    </div>
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="section__head">
+                                            <div class="h1">Our debit cards</div>
+                                        </div>
+                                        <p>Individuals and corporate clients buying Wibcoin (WBBC) tokens worth between 1 and 10 ETH, and upwards of 10 ETH, will be offered extra bonuses in the form of free debit cards (VISA or MASTERCARD):</p>
+<p>CLASSIC – with investment of 1 to 3 ETH</p>
+<p>GOLD – with investment of 3 to 10 ETH</p>
+<p>PLATINUM – with investment of 10 ETH or more</p>
+<p>Investors investing less than 1 ETH will receive a World Bit Bank virtual card. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="clear50"></div>
+            
+            <div class="main-section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="counter__wrapper-button"><a href="#popup" class="btn btn--color open-popup-link font-mob" id="ga8">BUY Wibcoin token </a></div>
+            </div>
+        </div>
+    </div>
+</div> 
+            <div class="clear50"></div>
+                
+            <!-- Section-->
+            <a name="116"></a>
+            <section class="section plan no--p-top">
+                <div class="container">
+                    <div class="section__head">
+                        <div class="h1">Roadmap</div>
+                    </div>
+                    <div class="plan__wrapper">
+                        <div class="plan__wrapper-content">
+                            <div class="plan__wrapper-line"></div>
+                            <div class="row">
+                                
+                                <div class="col-xs-12">
+    <div class="plan__block ">
+        <div class="plan__block-icon"><i class="icon icon--ecosystem-6"></i></div>
+        <div class="plan__block-title">2016</div>
+        <ul>
+<li>IT company Vitsolutions, LLC, for the development of mobile applications and financial technologies, established.</li>
+<li>Team of banking experts and software developers assembled. Work on the World Bit Bank project commences.</li>
+</ul>
+    </div>
+</div>
+<div class="col-xs-12">
+    <div class="plan__block ">
+        <div class="plan__block-icon"><i class="icon icon--ecosystem-6"></i></div>
+        <div class="plan__block-title">26.12.2017</div>
+        <ul>
+<li>Contract of intent to purchase a bank in Europe signed.</li>
+</ul>
+    </div>
+</div>
+<div class="col-xs-12">
+    <div class="plan__block ">
+        <div class="plan__block-icon"><i class="icon icon--ecosystem-6"></i></div>
+        <div class="plan__block-title">27.12.2017 - 26.04. 2018</div>
+        <ul>
+<li>Meeting with investors and presentation of the project to venture capital funds.</li>
+<li>Project concept formulation.</li>
+</ul>
+    </div>
+</div>
+<div class="col-xs-12">
+    <div class="plan__block ">
+        <div class="plan__block-icon"><i class="icon icon--ecosystem-6"></i></div>
+        <div class="plan__block-title">27.04.2018 – 27.06.2018</div>
+        <ul>
+<li>Conducting PRE – ICO and raising 25 million euros for the purchase of an existing bank in Europe.</li>
+<li>Preparation of documents for the purchase of an existing bank in Europe.</li>
+</ul>
+    </div>
+</div>
+<div class="col-xs-12">
+    <div class="plan__block ">
+        <div class="plan__block-icon"><i class="icon icon--ecosystem-6"></i></div>
+        <div class="plan__block-title">3Q 2018</div>
+        <ul>
+<li>Purchase of an existing bank in Europe. Development and commissioning of World Bit Bank software products.</li>
+<li>Preparation for ICO of the Banking Group World Bit Bank.</li>
+</ul>
+    </div>
+</div>
+<div class="col-xs-12">
+    <div class="plan__block ">
+        <div class="plan__block-icon"><i class="icon icon--ecosystem-6"></i></div>
+        <div class="plan__block-title">4Q 2018</div>
+        <ul>
+<li>ICO and sale of Wibcoin (WBBC) tokens for purchasing 9 banks in various financial jurisdictions around the world under the brand of the Banking Group World Bit Bank.</li>
+<li>Rebranding the banks to World Bit Bank.</li>
+</ul>
+    </div>
+</div>
+<div class="col-xs-12">
+    <div class="plan__block ">
+        <div class="plan__block-icon"><i class="icon icon--ecosystem-6"></i></div>
+        <div class="plan__block-title">2019</div>
+        <ul>
+<li>Purchase of 9 banks in various financial jurisdictions around the world under the brand of the Banking Group World Bit Bank.</li>
+<li>Rebranding the banks to World Bit Bank.</li>
+</ul>
+    </div>
+</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <div class="main-section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="counter__wrapper-button"><a href="#popup" class="btn btn--color open-popup-link font-mob" id="ga9">BUY Wibcoin token </a></div>
+            </div>
+        </div>
+    </div>
+</div> 
+        
+            <!-- Section-->
+            
+        
+             
+            <!-- Section-->
+            
+
+            <!-- Section-->
+            
+            
+            <!-- Section-->
+            <a name="241"></a>
+            <section class="section bonus">
+                <div class="container">
+                    <div class="section__head">
+                        <div class="h1">Bonuses</div>
+                    </div>
+                    
+                    
+                    <div class="bonus__row-new">
+                        <div class="bonus__row-new__top">
+                            <div class="bonus__row-new__top-block">
+                                
+                                <div class="bonus__row-new__top-block__center"><div><strong>+ 10%</strong> bonus</div></div>
+                                <div class="bonus__row-new__top-block__bottom"><div><strong>500</strong> Wibcoin</div></div>
+                                <div class="bonus__row-new__bottom-block"><div><p>For purchase of<br /><strong>100 - 500</strong> Wibcoin tokens,<strong> a 10% bonus is awarded</strong></p></div></div>
+                            </div>
+                            <div class="bonus__row-new__top-block">
+                                
+                                <div class="bonus__row-new__top-block__center"><div><strong>+ 15%</strong> bonus</div></div>
+                                <div class="bonus__row-new__top-block__bottom bonus__row-new__top-block__bottom--two"><div><strong>1 000</strong> Wibcoin</div></div>
+                                <div class="bonus__row-new__bottom-block"><div><p>For purchase of<br /><strong>500 - 1 000</strong> Wibcoin tokens,<strong> a 15% bonus is awarded</strong></p></div></div>
+                            </div>
+                            <div class="bonus__row-new__top-block">
+                                
+                                <div class="bonus__row-new__top-block__center"><div><strong>+ 20%</strong> bonus</div></div>
+                                <div class="bonus__row-new__top-block__bottom bonus__row-new__top-block__bottom--three"><div><strong>5 000</strong> Wibcoin</div></div>
+                                <div class="bonus__row-new__bottom-block"><div><p>For purchase of<br /><strong>1 000 - 5 000</strong> Wibcoin tokens,<strong>  20% bonus is awarded</strong></p></div></div>
+                            </div>
+                            <div class="bonus__row-new__top-block">
+                                
+                                <div class="bonus__row-new__top-block__center"><div><strong>+ 25%</strong> bonus</div></div>
+                                <div class="bonus__row-new__top-block__bottom bonus__row-new__top-block__bottom--four"><div><strong>10 000</strong> Wibcoin</div></div>
+                                <div class="bonus__row-new__bottom-block"><div><p>For purchase of<br /><strong>5 000 - 10 000</strong> Wibcoin tokens,<strong> a 25% bonus is awarded</strong></p></div></div>
+                            </div>
+                        </div>
+                        <div class="bonus__row-new__bottom">
+                            <div class="bonus__row-new__bottom-block"><div><p>For purchase of<br /><strong>100 - 500</strong> Wibcoin tokens,<strong> a 10% bonus is awarded</strong></p></div></div>
+                            <div class="bonus__row-new__bottom-block"><div><p>For purchase of<br /><strong>500 - 1 000</strong> Wibcoin tokens,<strong> a 15% bonus is awarded</strong></p></div></div>
+                            <div class="bonus__row-new__bottom-block"><div><p>For purchase of<br /><strong>1 000 - 5 000</strong> Wibcoin tokens,<strong>  20% bonus is awarded</strong></p></div></div>
+                            <div class="bonus__row-new__bottom-block"><div><p>For purchase of<br /><strong>5 000 - 10 000</strong> Wibcoin tokens,<strong> a 25% bonus is awarded</strong></p></div></div>
+                        </div>
+                    </div>
+                     
+                </div>
+            </section>
+            
+            
+            <a name="125"></a>
+            
+            <!-- Section-->
+            <section class="section command">
+                <div class="container">
+                    <div class="section__head">
+                        <div class="h1">Our team</div>
+                    </div>
+                    <div class="command__row">
+                        
+                        <div class="command__block">
+    <img src="resize/file/images/26/4/igor_b3f42_aca5bef10affc2f5185fcfd0b2eddbaa_b3f42_resize_252_0;crop_252_252.jpg" alt="Igor Romanenko">
+    <img class="img" src="" alt="">
+    <div class="command__title">Igor Romanenko</div>
+    <div class="command__seo">Founder, CEO - "World Bit Bank",  Founder "Vitsolutions",  LLC</div>
+    <p>More than twenty years of successful managerial experience as director and senior executive in private, public and strategic companies. Vast experience in planning, management of finances and assets.Member of the association Inovare, Switzerland, Zug.<a href="https://www.linkedin.com/in/igor-romanenko-51475a15b/" target="_blank"><br /></a></p>
+    <p><a href="https://www.linkedin.com/in/igor-romanenko-51475a15b/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/259/4/photo-500x500-vlad_b3f42_2088d7f32563a038e973c11e39e39751_b3f42_resize_252_0;crop_252_252.jpg" alt="Vlad Romanenko">
+    <img class="img" src="" alt="">
+    <div class="command__title">Vlad Romanenko</div>
+    <div class="command__seo">Co-founder "Vitsolutions", LLC</div>
+    <p>Mobile APP development</p>
+    <p><a href="https://www.linkedin.com/in/vlad-romanenko-34a9b815a/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/32/4/soldatova_b3f42_57a2d59631d26b6f53fc901d1c310068_b3f42_resize_252_0;crop_252_252.jpg" alt="Tatyana Soldatova">
+    <img class="img" src="" alt="">
+    <div class="command__title">Tatyana Soldatova</div>
+    <div class="command__seo">Project manager</div>
+    
+    <p><a href="https://www.linkedin.com/in/tatiana-soldatova-2a44b613b/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/111/4/boyamy_b3f42_e4cfbacbc0f9392ad9f0090746653d4b_b3f42_resize_252_0;crop_252_252.jpg" alt="Maksim Boyko">
+    <img class="img" src="" alt="">
+    <div class="command__title">Maksim Boyko</div>
+    <div class="command__seo">CEO "Vitsolutions", LLC</div>
+    <p>Mobile APP development<a href="https://www.linkedin.com/in/boyamy/" target="_blank"><br /></a></p>
+    <p><a href="https://www.linkedin.com/in/boyamy/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/33/4/Natalya-Yablonskaya_b3f42_707ea5be45eff1af88641849753679e9_b3f42_resize_252_0;crop_252_252.jpg" alt="Natalia Yablonskaya">
+    <img class="img" src="" alt="">
+    <div class="command__title">Natalia Yablonskaya</div>
+    <div class="command__seo">Lawyer Corp.</div>
+    
+    <p><a href="https://www.linkedin.com/in/nataliya-yablonskaya-621374159/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/266/4/photo-500x500-alina-susa2_b3f42_52ed6eaa9f170b4fb8deb7f9f57b3869_b3f42_resize_252_0;crop_252_252.jpg" alt="Alina Sysa">
+    <img class="img" src="" alt="">
+    <div class="command__title">Alina Sysa</div>
+    <div class="command__seo">Lawyer, banking specialist</div>
+    
+    <p><a href="http://linkedin.com/in/alina-sysa-86717315b" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/297/4/photo-500x500-SergeySokolov_b3f42_aa8b0f7a05dbf375b278348fa0f5fbeb_b3f42_resize_252_0;crop_252_252.jpg" alt="Sergey Sokolov">
+    <img class="img" src="" alt="">
+    <div class="command__title">Sergey Sokolov</div>
+    <div class="command__seo">Co Founder – BrandU Production</div>
+    
+    <p><a href="https://www.linkedin.com/in/сергей-соколов-270337aa/Сергей Соколов" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/298/4/photo-500x500-Kulik_b3f42_56acd1685a1acbcf423c495d42cebee8_b3f42_resize_252_0;crop_252_252.jpg" alt="Sergey Kulik">
+    <img class="img" src="" alt="">
+    <div class="command__title">Sergey Kulik</div>
+    <div class="command__seo">Senior Web Developer</div>
+    <p>Founder&amp;CEO - Company DARTC</p>
+<p>Оver 12 years of experience in web development for business solutions</p>
+    <p><a href="https://www.linkedin.com/in/sekulik/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/263/4/photo-500x500-lazarco_b3f42_e3f2e5c9494dcaea86c4eacf75b1a57e_b3f42_resize_252_0;crop_252_252.jpg" alt="Semen Lazarko">
+    <img class="img" src="" alt="">
+    <div class="command__title">Semen Lazarko</div>
+    <div class="command__seo">SMM specialist</div>
+    
+    <p><a href="http://linkedin.com/in/semen-lazarko-a07118161" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/264/4/photo-500x500-kseniia-deina_b3f42_39519329548730b7b6f4c5effc83334e_b3f42_resize_252_0;crop_252_252.jpg" alt="Kseniia Deina">
+    <img class="img" src="" alt="">
+    <div class="command__title">Kseniia Deina</div>
+    <div class="command__seo">SMM - manager</div>
+    
+    <p><a href="https://www.linkedin.com/in/kseniia-deina-626187119/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/258/4/photo-500x500-eduard-sadontsev_b3f42_3e47744713ed58776f7c480123290674_b3f42_resize_252_0;crop_252_252.jpg" alt="Eduard Sadontsev">
+    <img class="img" src="" alt="">
+    <div class="command__title">Eduard Sadontsev</div>
+    <div class="command__seo">Android Developer</div>
+    
+    <p><a href="https://www.linkedin.com/in/eduard-sadontsev-b07aa8136/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/0/4/photo-500x500-team_b3f42_daa4e58c0a32b39ee377419325b12f3c_b3f42_resize_252_0;crop_252_252.jpg" alt="More than 50 people in the team">
+    <img class="img" src="" alt="">
+    <div class="command__title">More than 50 people in the team</div>
+    <div class="command__seo"></div>
+    <p>The team of the World Bit Bank project is professionals in the field of information technology, crypto-currency, blockchain technology, banking operations, payment processing, economics and financial services.</p>
+    
+</div>
+                        
+                    </div>
+                </div>
+            </section>
+            <a name="510"></a>
+            <!-- Section-->
+            <section class="section command">
+                <div class="container">
+                    <div class="section__head">
+                        <div class="h1">Advisers</div>
+                    </div>
+                    <div class="command__row">
+                        
+                        <div class="command__block">
+    <img src="resize/file/images/0/4/photo-500x500-James-Collins_b3f42_29663c960bfd55fb3fc32c4eb2bc6da8_b3f42_resize_252_0;crop_252_252.jpg" alt="James Collins">
+    <img class="img" src="/images/0/10/United-States.png" alt="">
+    <div class="command__title">James Collins</div>
+    <div class="command__seo">Chairman of JJC Investments LLC. A Private Equity Crypto Investments Fund</div>
+    
+    <p><a href="https://www.linkedin.com/in/james-collins-514420122/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/433/4/photo-500x500-RomanOliynykov-UA1_b3f42_9afa976ac36e6ba445bf1a6b12fec998_b3f42_resize_252_0;crop_252_252.jpg" alt="Roman Oliynykov">
+    <img class="img" src="/images/433/10/Ukraine.png" alt="">
+    <div class="command__title">Roman Oliynykov</div>
+    <div class="command__seo"></div>
+    <p>Researcher at IOHK (expertize at decentralized consensus; scaling decentralized methods for self-sustainable development of cryptocurrencies). Dr.Habil. (Dr.Sc.), professor of Information Systems and Technologies Security Department at V.N.Karazin Kharkiv National University.</p>
+    <p><a href="https://www.linkedin.com/in/oliynykov" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/100/4/Sebastian-Forbes_b3f42_f496f26c59dfe80723437efa0f636b56_b3f42_resize_252_0;crop_252_252.jpg" alt="Sebastian Forbes">
+    <img class="img" src="/images/442/10/United-Kingdom.png" alt="">
+    <div class="command__title">Sebastian Forbes</div>
+    <div class="command__seo">Founder of «Forbes Financial LTD»</div>
+    
+    <p><a href="https://www.linkedin.com/in/sebastian-forbes-bb21b512a/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/437/4/photo-500x500-VictorChow-SG1_b3f42_07f07c9c3814bc8120454f4435a85960_b3f42_resize_252_0;crop_252_252.jpg" alt="Victor Chow">
+    <img class="img" src="/images/437/10/Singapore.png" alt="">
+    <div class="command__title">Victor Chow</div>
+    <div class="command__seo">Asian Market and Investment Expert</div>
+    <p>He is a serial entrepreneur and senior corporate leader with over 28 years experience working in venture capital, start-ups, telecommunications, ICT, financial &amp; blockchain technologies, and most recently turned business investor. He joined WBB as our Asian Market and Investment Advisor managing and servicing our pool of Asian clients and investors.</p>
+    <p><a href="https://www.linkedin.com/in/victorchowsingapore" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/524/4/photo-500x500-SriramVenkataraman_b3f42_3f841d24340f1a8b0231e1c4bb778471_b3f42_resize_252_0;crop_252_252.jpg" alt="Sriram Venkataraman">
+    <img class="img" src="/images/524/10/United-States.png" alt="">
+    <div class="command__title">Sriram Venkataraman</div>
+    <div class="command__seo">Banking, Capital Markets Expert</div>
+    
+    <p><a href="https://www.linkedin.com/in/iamsriram/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/674/4/photo-500x500-YevgeniyPorada_b3f42_7984df1208481b14069adf783b4e5be3_b3f42_resize_252_0;crop_252_252.jpg" alt="Yevgeniy Porada">
+    <img class="img" src="/images/674/10/Ukraine.png" alt="">
+    <div class="command__title">Yevgeniy Porada</div>
+    <div class="command__seo">Independent Board Member of JSC Commercial Industrial Bank (Ukraine). Managing Partner at Ostin Law Firm (Ukraine).</div>
+    <p>Yevgeniy has more than 12 years of legal practice, specializes in corporate, M&amp;A and capital markets with focus on IT and banking industries.</p>
+    <p><a href="https://www.linkedin.com/in/yevgen-porada-7242216/" target="_blank">Linkedin</a></p>
+</div>
+                        
+                    </div>
+                </div>
+            </section>
+            <a name="135"></a>
+            <!-- Section-->
+            <section class="section command">
+                <div class="container">
+                    <div class="section__head">
+                        <div class="h1">Experts</div>
+                    </div>
+                    <div class="command__row">
+                        
+                        <div class="command__block">
+    <img src="resize/file/images/280/4/photo-500x500-NikolayRuzhentsev-UA1_b3f42_1937c253a8695e036b0857aad2165bd3_b3f42_resize_252_0;crop_252_252.jpg" alt="Nikolai Ruzhentsev">
+    <img class="img" src="/images/280/10/Ukraine.png" alt="">
+    <div class="command__title">Nikolai Ruzhentsev</div>
+    <div class="command__seo"></div>
+    <p>Sc. D, professor in the department of information and communication system radio technology of the Kharkiv National University of Radioelectronics, member of the New York Academy of Sciences</p>
+    <p><a href="https://www.linkedin.com/in/николай-руженцев-667514a4/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/295/4/photo-500x500-EchaEmmanuel-NG1_b3f42_3d30a65495ac0f6c8325e98b3dc65c78_b3f42_resize_252_0;crop_252_252.jpg" alt="Mr. Echa Emmanuel">
+    <img class="img" src="/images/295/10/Nigeria.png" alt="">
+    <div class="command__title">Mr. Echa Emmanuel</div>
+    <div class="command__seo">Blockchain expert</div>
+    
+    <p><a href="https://www.linkedin.com/in/echaemmanuel/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/282/4/photo-500x500-ZaharDana-UA1_b3f42_c89e0393ecf031b1c7d182a7d9a75092_b3f42_resize_252_0;crop_252_252.jpg" alt="Zahar Deina">
+    <img class="img" src="/images/282/10/Ukraine.png" alt="">
+    <div class="command__title">Zahar Deina</div>
+    <div class="command__seo">Blockchain expert</div>
+    
+    <p><a href="https://www.linkedin.com/in/zahar-deina-43a361157/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/435/4/photo-500x500-IulianSerbanescu-RO1_b3f42_6317ed10595bbd3d563c7728ccdba836_b3f42_resize_252_0;crop_252_252.jpg" alt="Mr. Iulian Serbanescu">
+    <img class="img" src="/images/435/10/Romania.png" alt="">
+    <div class="command__title">Mr. Iulian Serbanescu</div>
+    <div class="command__seo">Legal expert</div>
+    <p>Vice President at Fintech, Blockchain and Cryptocurrency Association<br />Associate partner Artemis Legal Insolvency<br />Owner Law Office Iulian Serbanescu (Avis Law Office)</p>
+    <p><a href="https://www.linkedin.com/in/iulianiondaserbanescu" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/291/4/photo-500x500-MikhailBelevtsov-UA1_b3f42_84fbdc604b7c91ca4072ec56cecc509c_b3f42_resize_252_0;crop_252_252.jpg" alt="Mike Belevtsov">
+    <img class="img" src="/images/291/10/Ukraine.png" alt="">
+    <div class="command__title">Mike Belevtsov</div>
+    <div class="command__seo">Blockchain expert</div>
+    
+    <p><a href="https://www.linkedin.com/in/mike-belevtsov-bb9678131/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/439/4/photo-500x500-DanielKass-US1_b3f42_afab8a6305e0b8847d18480be88ebb3c_b3f42_resize_252_0;crop_252_252.jpg" alt="Daniel Kass">
+    <img class="img" src="/images/439/10/United-States.png" alt="">
+    <div class="command__title">Daniel Kass</div>
+    <div class="command__seo">Blockchain Expert</div>
+    <p>CryptoCurrency and ICO Consultant</p>
+    <p><a href="https://www.linkedin.com/in/dannygkass/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/0/4/photo-500x500-AntonioManno_b3f42_342e261d2f42582af9b598fbee39ca18_b3f42_resize_252_0;crop_252_252.jpg" alt="Antonio Manno">
+    <img class="img" src="/images/0/10/Italy.png" alt="">
+    <div class="command__title">Antonio Manno</div>
+    <div class="command__seo">Economist, Blockchain philosopher, Blockchain expert</div>
+    <p>Co-founder and Senior Advisor at Exosphere</p>
+    <p><a href="https://www.linkedin.com/in/antoniomanno" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/443/4/photo-500x500-SergeyKudriavtsev_b3f42_29d50fef3bbec608862d6a2ae9ed1f8e_b3f42_resize_252_0;crop_252_252.jpg" alt="Sergey Kudriavtsev">
+    <img class="img" src="/images/0/10/Belarus.png" alt="">
+    <div class="command__title">Sergey Kudriavtsev</div>
+    <div class="command__seo">Expert of Blockchain-technology</div>
+    <p>ICO founder</p>
+    <p><a href="https://www.linkedin.com/in/sergey-kudriavtsev/" target="_blank">Linkedin</a></p>
+</div>
+<div class="command__block">
+    <img src="resize/file/images/526/4/photo-500x500-SergeiLogvin_b3f42_1d43285a36eb6e360cd2c41d2e36b852_b3f42_resize_252_0;crop_252_252.jpg" alt="Sergey Logvin">
+    <img class="img" src="/images/526/10/Poland.png" alt="">
+    <div class="command__title">Sergey Logvin</div>
+    <div class="command__seo"></div>
+    
+    <p><a href="https://www.linkedin.com/in/sergei-logvin-2914bb52" target="_blank">Linkedin</a></p>
+</div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <div class="main-section2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="counter__wrapper-button"><a href="#popup" class="btn btn--color open-popup-link font-mob" id="ga10">BUY Wibcoin token </a></div>
+            </div>
+        </div>
+    </div>
+</div> 
+            
+            <a name="287"></a>
+            <!-- Section documents-->
+            <section class="section document">
+                <div class="container">
+                    <div class="document__wrapper">
+                        <div class="document__wrapper-content">
+                            <div class="section__head">
+                                <div class="h1">Documents</div>
+                            </div>
+                            <div class="document__row">
+                                
+                                <a href="/file/images/288/4/FVR000027-new.png" target="_blank" class="document__block"><i class="fa fa-file-text-o"></i><span>License FVR000027</span></a>
+<a href="/file/images/289/4/FRK000019-new.png" target="_blank" class="document__block"><i class="fa fa-file-text-o"></i><span>License FRK000019</span></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a name="145"></a>
+            <!-- Section-->
+            <section class="section partners">
+                <div class="container">
+                    <div class="section__head">
+                        <div class="h1">Partners</div>
+                    </div>
+                    <div class="partners__row">
+                        
+                        <div class="partners__block">
+    <a href="http://www.innovare-platform.ch/ru" target="_blank">
+        <img src="resize/file/images/261/4/logo-150x100-innovare_b3f42_d7e184ea6b7f3815a3e613c1689d5c57_b3f42_resize_150_0.png" alt="innovate">
+    </a>
+</div>
+<div class="partners__block">
+    <a href="https://www.vitsolutions.tech/" target="_blank">
+        <img src="resize/file/images/52/4/logo-vitsolution_b3f42_5ca8c1424b1c06f0f729ee86e2cc10f0_b3f42_resize_150_0.png" alt="vitsolutions">
+    </a>
+</div>
+<div class="partners__block">
+    <a href="http://gbti.pl/" target="_blank">
+        <img src="resize/file/images/260/4/logo-150x100-gbti_b3f42_33cf78e89598f930781b9aafaac5a82b_b3f42_resize_150_0.png" alt="gbti">
+    </a>
+</div>
+<div class="partners__block">
+    <a href="http://dartc.ua" target="_blank">
+        <img src="resize/file/images/0/4/logo_b3f42_1f762ef216570f8d7c206f3339b90a3b_b3f42_resize_150_0.png" alt="Dartc">
+    </a>
+</div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Counter-->
+            
+            
+            <!-- Section-->
+            <section class="section subscription" id="subscription">
+                <div class="container">
+                    
+                    
+                    
+                            
+                            
+                    
+                    <form action="https://wbb.io/" id="contact-form" method="post">
+                        <legend>Sign up for updates to stay up to date with all news</legend>
+                        <div class="subscription__form">
+                            <input type="hidden" value="En" name="lang">
+                            
+                            <div class="subscription__form-wrapper ">
+                                <input type="text" placeholder="Your Email" id="email" name="email" value="">
+                                <button type="submit">Sign up</button>
+                            </div>
+                            
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <!-- Footer-->
+        
+        <footer class="footer">
+    <div class="footer__top" style="padding-bottom: 20px;">
+        <div class="container">
+            <div class="footer__logo"><img src="templates/main/img/footer-logo.png" alt=""><span>The world’s first legal cryptocurrency bank</span></div>
+            <div class="footer__menu">
+                
+                <ul><li><a href="#102" #102>Description</a></li><li><a href="#103" #103>Advantages</a></li><li><a href="#116" #116>Roadmap</a></li><li><a href="#125" #125>Team</a></li><li><a href="faq/" faq/>FAQ</a></li></ul>
+                
+            </div>
+            
+            <div class="clear30"></div>
+                
+            <div class="text-center" style="font-size: 14px; color: #3c9dc7">World Bit Group OÜ registrikood 14417301 asukoht Parda  th 4, 411-1, 10151 Tallinn Estonia , info@wbb.io</div>
+            <p class="text-center" style="margin-top:10px">This ICO is available to everyone except US residents</p>
+            <div class="text-center">
+            	<a href="privacy-policy.html" class="text-center" style="display:inline-block;margin:0 10px">Privacy Policy</a>
+            	<a href="terms-of-service.html" class="text-center" style="display:inline-block;margin:0 10px">Terms of service</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="footer__copyright">© Copyright 2017-2018</div>
+            <div class="footer__development">Development by<a href="https://dartc.ua" target="_blank">DARTC</a></div>
+            <div class="footer__social">
+                <a href="https://twitter.com/WorldBitBank" target="_blank"> <i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/WorldBitBank/" target="_blank"> <i class="fa fa-facebook"></i></a>
+                
+                <a href="https://www.reddit.com/user/WorldBitBanktoken/" target="_blank"> <i class="fa fa-reddit-alien"></i></a>
+                <a href="https://t.me/WBBCoin" target="_blank"> <i class="fa fa-telegram"></i></a>
+                <a href="https://www.instagram.com/worldbitbanktoken/" target="_blank"> <i class="fa fa-instagram"></i></a>
+                <a href="https://medium.com/@coinwbb" target="_blank"> <i class="fa fa-medium"></i></a>
+                <a href="https://www.youtube.com/channel/UC4xgZJttyDVr6ZpEf57Ra2g" target="_blank"> <i class="fa fa-youtube"></i></a> 
+                <a href="https://bitcointalk.org/index.php?topic=3206437.0;topicseen" target="_blank"> <i class="fa fa-btc"></i></a>
+
+            </div>
+        </div>
+    </div>
+</footer>
+        
+        <!--[if gte IE 9]
+        <script src='templates/main/js/libs/html5shiv/es5-shim.min.js'>
+        <script src='templates/main/js/libs/html5shiv/html5shiv.min.js'>
+        <script src='templates/main/js/libs/html5shiv/html5shiv-printshiv.min.js'>
+        <script src='templates/main/js/libs/html5shiv/respond.min.js'><![endif]
+        
+        -->
+        <!-- Load Scripts-->
+        
+        <script src="templates/main/js/libs.js"></script>
+        <!-- Footer js-->
+        <script src="templates/main/js/libs/jquery.matchHeight/jquery.matchHeight-min.js"></script>
+        <script src="templates/main/js/libs/bootstrap/bootstrap.min.js"></script>
+        <script src="templates/main/js/libs/countdown/jquery.countdown.min.js"></script>
+        <script src="templates/main/js/libs/dataTables/jquery.dataTables.min.js"></script>
+        <script src="templates/main/js/libs/dataTables/dataTables.bootstrap.min.js"></script>
+        <script src="templates/main/js/libs/swiper/swiper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+        <script src="templates/main/js/highlight.pack.min.js"></script>
+        <script src="templates/main/js/clipboard.min.js"></script>
+        <script src="templates/main/js/tooltips.js?v=05052018"></script>
+        <script src="templates/main/js/common.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+       
+        
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+(function(){ var widget_id = 'UCIRwmKwaO';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+<!-- {/literal} END JIVOSITE CODE --> 
+<script>
+    $('.remove-block').on('click', function(){
+    $('.fix-cookie').removeClass('visible-block');
+    $.cookie('block__close', 'close', { expires: 365, path: '/' });
+    });
+    
+    if($.cookie('block__close') == 'close'){
+      $('.fix-cookie').removeClass('visible-block');
+    }
+</script>
+        <script>
+    $(function(){
+       
+      var endDateObj = moment.tz(" Jan  1, 2019 00:00:00", "UTC");
+      var endDate = endDateObj.toDate();
+      $('.countdown').countdown({
+        date: endDate,
+        render: function(data) {
+          $(this.el).html("<div><strong>" + this.leadingZeros(data.days, 2) + "</strong><span>days</span></div><div><strong>" + this.leadingZeros(data.hours, 2) + "</strong><span>hours</span></div><div><strong>" + this.leadingZeros(data.min, 2) + "</strong><span>minutes</span></div><div><strong>" + this.leadingZeros(data.sec, 2) + "</strong><span>seconds</span></div>");
+        }
+      });
+      
+      $('.header__nav li:first-child').addClass('active');
+    });
+    
+    particlesJS.load('particles-js', 'templates/main/js/libs/particles/particles.json');
+</script>
+    </body>
+</html>
